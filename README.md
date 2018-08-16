@@ -2,11 +2,11 @@
 
 Build a basic Docker image which servers a simple app.py
 
-# Build 
+## Build 
 
 docker run -p 4000:80 friendlyhello 
  
-# run 
+## run 
 
 docker run -p 4000:80 friendlyhello 
  
