@@ -1,6 +1,6 @@
 # Docker
 
-Build a basic Docker image which servers a simple app.py
+Build a basic Docker image which serves a simple app.py
 
 ## Build 
 
