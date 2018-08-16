@@ -6,7 +6,7 @@ Build a basic Docker image which servers a simple app.py
 
 docker run -p 4000:80 friendlyhello 
  
-## run 
+## Run 
 
 docker run -p 4000:80 friendlyhello 
  
