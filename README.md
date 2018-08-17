@@ -12,4 +12,4 @@ docker run -p 4000:80 friendlyhello
 
 ## Run detached mode 
 
-11 docker run -d -p 4000:80 friendlyhello
+docker run -d -p 4000:80 friendlyhello
