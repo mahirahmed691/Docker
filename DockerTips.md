@@ -32,7 +32,7 @@ you can check logs of container. Use the following:
 docker logs -f <container_name>
 ```
 ## Believe bash is your best friend
-Manydeveloper or admins who are working close with command line create their own aliases for various commands. you can do it too, just make your working process easy. Just add these to your ~/.bashrc
+Many developers and admins who are working close with the termninal/command line create their own aliases for various commands. You can do it too, and by doing make processes easy. Just add these to your ~/.bashrc :fast_forward:
 ```
 #docker commands
 alias dr='docker rm $(docker ps -aq)'
