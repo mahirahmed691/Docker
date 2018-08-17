@@ -11,12 +11,12 @@ when running a lot of container, can be case that exists list of containers whic
 ```
 docker rm $(docker ps -q -f status=exited)
 ```
-## Stop all containers
+## Stop all containers :no_entry_sign:
 ```
 docker stop $(docker ps -q)    - will run stop only for active
 docker stop $(docker ps -aq) - will run stop for all
 ```
-## Remove all docker images
+## Remove all docker images :dvd:
 ```
 docker rmi $(docker images -q)
 don't forget image shouldn't have reference to container 
@@ -26,7 +26,7 @@ In case if you want to create your own image use command below
 ```
 docker build -t <image_name> .
 ```
-## See logs in container
+## See logs in container :clipboard:
 you can check logs of container. Use the following:
 ```
 docker logs -f <container_name>
