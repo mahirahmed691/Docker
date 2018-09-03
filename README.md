@@ -18,7 +18,7 @@ docker run -d -p 4000:80 friendlyhello
 
 These two commnds below will allow for searching the docker registry to  download and install the image.
 
-docker search <name>
+docker search < name >
 
-docker pull <name>
+docker pull < name >
 
